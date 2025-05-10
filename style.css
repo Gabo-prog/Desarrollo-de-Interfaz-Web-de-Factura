@@ -1,0 +1,69 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 40px;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+caption {
+    background-color: #34495e;
+    color: white;
+    font-size: 1.2em;
+    padding: 12px;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #ecf0f1;
+    font-weight: bold;
+}
+
+.tabla-empresa {
+    background-color: #e3f2fd;
+}
+
+.tabla-cliente {
+    background-color: #fce4ec;
+}
+
+.tabla-productos {
+    background-color: #fffde7;
+}
+
+.tabla-info {
+    background-color: #e8f5e9;
+}
+
+.pie {
+    margin-top: 30px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    background-color: #dfe6e9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    color: #2c3e50;
+    font-size: 1.1em;
+}
