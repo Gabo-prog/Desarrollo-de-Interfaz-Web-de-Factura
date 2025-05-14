@@ -1,3 +1,4 @@
+/* Estilos generales para el cuerpo del documento */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 40px;
@@ -5,12 +6,14 @@ body {
     color: #333;
 }
 
+/* Estilo para el título principal */
 h1 {
     text-align: center;
     color: #2c3e50;
     margin-bottom: 30px;
 }
 
+/* Estilos generales para las tablas */
 table {
     width: 100%;
     margin-bottom: 30px;
@@ -20,6 +23,7 @@ table {
     overflow: hidden;
 }
 
+/* Estilo para los títulos de las tablas */
 caption {
     background-color: #34495e;
     color: white;
@@ -28,17 +32,20 @@ caption {
     font-weight: bold;
 }
 
+/* Estilo para las celdas de las tablas */
 td, th {
     border: 1px solid #ddd;
     padding: 12px;
     text-align: left;
 }
 
+/* Estilo para las celdas de encabezado */
 th {
     background-color: #ecf0f1;
     font-weight: bold;
 }
 
+/* Estilos para cada tabla específica */
 .tabla-empresa {
     background-color: #e3f2fd;
 }
@@ -55,6 +62,7 @@ th {
     background-color: #e8f5e9;
 }
 
+/* Estilo para el pie de página */
 .pie {
     margin-top: 30px;
     text-align: center;
